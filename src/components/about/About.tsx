@@ -6,7 +6,7 @@ import ImgFour from '../../assets/images/personal-gallery/imgFour.png'
 
 const About = () => {
   useEffect(() => {
-    document.title = "Gameboards | Digital Society";
+    document.title = "About | Digital Society";
   })
   return (
     <article className="flex flex-col min-h-screen sm:col-span-5 md:col-span-4 items-center pt-20">

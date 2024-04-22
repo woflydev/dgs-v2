@@ -42,7 +42,7 @@ const Gallery = () => {
   }
 
   useEffect(() => {
-    document.title = "Gameboards | Digital Society";
+    document.title = "Gallery | Digital Society";
     setEndOffset(itemOffset + 12);
     setcurrentBlogPosts([...GalleryData].slice(itemOffset, endOffset));
   }, [setEndOffset, endOffset, itemOffset]);
