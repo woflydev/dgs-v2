@@ -6,7 +6,6 @@ import ResetLocation from '../../helpers/ResetLocation';
 import 'react-slideshow-image/dist/styles.css'
 import { paginationEvent } from '../../types/interfaces';
 
-
 const Gallery = () => {
   
   const [itemOffset, setItemOffset] = useState(0);
@@ -86,13 +85,24 @@ const Gallery = () => {
       </section>
       {isOpen ?
         //Modal
-        <section className={`img-modal w-screen h-screen fixed z-30 top-0 left-0 flex  justify-center bg-rgba(255, 255, 255, .15) backdrop-blur-sm ${isOpen ? 'flex' : 'hidden'}`}>
+        <section className={`img-modal w-screen h-screen fixed z-30 top-0 left-0 flex  justify-center bg-rgba(0, 0, 0, .5) backdrop-blur-sm ${isOpen ? 'flex' : 'hidden'}`}>
         <button onClick={toggle} className="absolute flex items-center justify-center z-40 text-2xl text-gray-200 text-bold p-2 bg-black rounded-full w-10 h-10 right-4 top-4 hover:-rotate-90 transition duration-500">
           X
         </button>
         <button
           onClick={handlePrevClick}
-          className="absolute flex items-center justify-center z-40 left-8 top-1/2 text-xl text-gray-200 text-bold p-6 bg-black rounded-full w-10 h-10 hover:bg-opacity-75 transition"
+          className="
+            absolute 
+            flex 
+            items-center justify-center 
+            z-40 left-8 top-1/2 
+            text-xl text-gray-200 text-bold 
+            p-6 
+            bg-black 
+            rounded-full 
+            w-10 h-10 
+            hover:bg-opacity-75 transition"
+            
           data-type="prev"
         >
           &lt;

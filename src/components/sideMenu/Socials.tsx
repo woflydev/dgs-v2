@@ -6,19 +6,19 @@ const Socials = () => {
   return (
     <section className="flex flex-row gap-3">
       <a
-        href="https://github.com/woflydev/" // add this later
+        href="https://github.com/woflydev/dgs-v2"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img className="w-6 h-6	max-w-full" src={Github} alt="Github icon" />
       </a>
-      <a
+      {/* <a
         href="https://www.linkedin.com/in/enochatodyssey/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img className="w-6 h-6	max-w-full" src={Linkedin} alt="Linkedin icon" />
-      </a>
+      </a> */}
       <a
         href="https://woflydev.com/"
         target="_blank"

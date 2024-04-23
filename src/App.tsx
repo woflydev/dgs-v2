@@ -10,7 +10,6 @@ import Contact from "./components/contact/Contact";
 //Styles
 import "./core-ui/index.css";
 
-
 const App: FC = () => {
   return (
     <Router>
