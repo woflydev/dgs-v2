@@ -2,6 +2,7 @@ import ImgOne from '../assets/images/gallery/image-1.png'
 import ImgTwo from '../assets/images/gallery/image-2.jpg'
 import ImgThree from '../assets/images/gallery/image-3.jpg'
 import ImgFour from '../assets/images/gallery/image-4.jpg'
+import ImgFive from '../assets/images/gallery/image-5.png'
 
 const GalleryData = [
   { id: 1, src: ImgOne, alt: 'Georgia' },
