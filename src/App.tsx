@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Gallery from "./components/gallery/Gallery";
 import SideMenu from "./components/sideMenu/SideMenu";
 import About from "./components/about/About";
+import Contact from "./components/contact/Contact";
 
 //Styles
 import "./core-ui/index.css";
@@ -16,6 +17,7 @@ const App: FC = () => {
       <Routes>
         <Route path="/" element={<Gallery />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
